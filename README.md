@@ -1,4 +1,4 @@
-#  Book Hub – Full Stack Application with DevOps Foundation
+#  Book Hub – Full Stack Application with DevOps 
 
 **Book Hub** is a full-stack web application that allows users to browse, search, and discover books through a responsive and modern UI. This project is professionally structured with DevOps best practices including secure repository configuration, automated CI workflows, and structured project planning.
 
