@@ -14,6 +14,7 @@ https://yellow-pebble-0a3953c03.1.azurestaticapps.net/#
 
 ## ✅ Peer Review
 
+https://github.com/munyaneza-w/ISHURI-APP/pull/9 
 
 ## ✅ Reflection
 - Creating infrastructure with Terraform helped me understand the structure of cloud services better. The challenge was configuring the PostgreSQL service and getting network settings to allow access from the web app.
