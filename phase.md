@@ -16,6 +16,15 @@ https://yellow-pebble-0a3953c03.1.azurestaticapps.net/#
 
 
 ## ✅ Reflection
-Creating infrastructure with Terraform helped me understand the structure of cloud services better. The challenge was configuring the PostgreSQL service and getting network settings to allow access from the web app.
+- Creating infrastructure with Terraform helped me understand the structure of cloud services better. The challenge was configuring the PostgreSQL service and getting network settings to allow access from the web app.
 
-Although time-consuming, the manual deployment was instructive, particularly when it came to configuring the web application and pushing to the Azure Container Registry. For improved speed and reproducibility, I would use GitHub Actions to automate it earlier the next time.
+- Although time-consuming, the manual deployment was instructive, particularly when it came to configuring the web application and pushing to the Azure Container Registry. For improved speed and reproducibility, I would use GitHub Actions to automate it earlier the next time.
+
+- Challenges with IaC: Understanding Azure naming restrictions, managing service dependencies in Terraform, and provisioning order.
+
+-  Manual Deployment Issues: Misconfigured environment variables caused DB connection errors; resolved by updating App Service settings.
+
+- I learnt that using modules in Terraform improves maintainability.
+
+- I also learnt that Containerizing early makes CI/CD easier later.
+

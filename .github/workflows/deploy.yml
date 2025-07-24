@@ -1,0 +1,27 @@
+name: Build and Push Docker Image to ACR
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Log in to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Docker Login to ACR
+        run: |
+          az acr login --name bookhubacr123
+
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t bookhub-app ./Backend/book_hub
+          docker tag bookhub-app bookhubacr123.azurecr.io/bookhub-app:latest
+          docker push bookhubacr123.azurecr.io/bookhub-app:latest

@@ -2,7 +2,14 @@
 
 **Book Hub** is a full-stack web application that allows users to browse, search, and discover books through a responsive and modern UI. This project is professionally structured with DevOps best practices including secure repository configuration, automated CI workflows, and structured project planning.
 
----
+## Local Setup with Docker
+
+```bash
+docker-compose up --build
+
+## App deployed at
+
+https://yellow-pebble-0a3953c03.1.azurestaticapps.net/#
 
 ## Tech Stack
 
