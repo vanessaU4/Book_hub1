@@ -1,4 +1,32 @@
-#  Book Hub – Full Stack Application with DevOps 
+# 📦 BookHub - Full Stack App with CI/CD and DevSecOps Integration
+
+Welcome to the official repository of **BookHub**, a full-stack application deployed with a fully automated Continuous Deployment pipeline and DevSecOps best practices. This project demonstrates professional-grade CI/CD, automated security checks, monitoring, and release management.
+
+---
+
+## 🚀 Live URLs
+
+- **🔧 For FRONTEND**: https://book-fn-agzu.onrender.com/
+- **🌐 For Backend**: https://book-hub-5-vjef.onrender.com/
+
+## 🚀 Video demonstration link
+
+
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── frontend/                  # React app (Vite + TypeScript)
+├── backend/                  # Django REST API
+├── terraform/                # Infrastructure as Code (Azure resources)
+├── .github/workflows/        # GitHub Actions pipelines
+│   └── main.yml              # CI/CD + Security + Deployment pipeline
+├── CHANGELOG.md              # Version history
+├── README.md                 # You're here!
+
+
 
 **Book Hub** is a full-stack web application that allows users to browse, search, and discover books through a responsive and modern UI. This project is professionally structured with DevOps best practices including secure repository configuration, automated CI workflows, and structured project planning.
 
