@@ -11,6 +11,8 @@ Welcome to the official repository of **BookHub**, a full-stack application depl
 
 ## 🚀 Video demonstration link
 
+https://www.loom.com/share/b3db6cf43435479696db69350e015a0a?sid=91f5cb1c-aecb-4254-8e44-d8bf4acaa11b
+
 
 
 ---
